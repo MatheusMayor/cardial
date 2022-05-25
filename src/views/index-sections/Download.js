@@ -4,6 +4,7 @@ import React from "react";
 import { Button, Container, Row, Col, UncontrolledTooltip } from "reactstrap";
 import Map from "../../components/Map/index.js";
 // core components
+import "../../assets/css/download.css"
 
 function Download() {
   return (
