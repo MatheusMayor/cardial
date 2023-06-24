@@ -39,10 +39,10 @@ function IndexHeader() {
             <img
               alt="..."
               className="n-logo"
-              src={require("assets/img/now-logo.png").default}
+              src={require("assets/img/cardial-sft-branco.svg").default}
             ></img>
-            <h1 className="h1-seo">CARDIAL MKT</h1>
-            <h3 className="subtile">Aumente suas vendas e conquiste objetivos incríveis</h3>
+            <h1 className="h1-seo">CARDIAL I.T</h1>
+            <h3 className="subtile">Somos uma empresa de desenvolvimento de software, focada em soluções de prontidão e eficazes. </h3>
           </div>
         
            

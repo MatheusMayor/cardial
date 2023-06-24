@@ -17,12 +17,9 @@ function Download() {
         <Container>
           <Row className="justify-content-md-center">
             <Col className="text-center" lg="8" md="12">
-              <h3 className="title">Quer ter resultados de verdade?</h3>
+              <h3 className="title">Se permita!</h3>
               <h5 className="description">
-                Procure-nos agendamos uma conversa para que seja apresentado
-                nosso planejamento de marketing para você sem compromisso,
-                oferecemos planos que se encaixam com seu negócio e com seu
-                orçamento. Aumento de <b>30%</b> das vendas em <b>3</b> meses.
+              Descubra os produtos  da Cardial I.T. e aproveite todas as vantagens que eles têm a oferecer! Explore soluções inovadoras desenvolvidas por especialistas em tecnologia e descubra como nossos produtos podem impulsionar o crescimento do seu negócio. Não perca a oportunidade de conhecer a Cardial I.T. e leve sua empresa para o próximo nível da transformação digital.
               </h5>
             </Col>
             <Col className="text-center" lg="8" md="12">

@@ -454,6 +454,12 @@
   font-weight: 300;
 }
 
+#image-app{
+  max-height: 600px;
+  height: auto;
+
+}
+
 .brand .n-logo {
   max-width: 100px;
   margin-bottom: 40px;

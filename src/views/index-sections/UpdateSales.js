@@ -13,19 +13,21 @@ function UpdateSales() {
           <Roll left>
             <Row>
               <Col lg="6" md="12">
-                <h2 className="title">Atinja mais público</h2>
+                <h2 className="title">Um site com a cara da sua empresa</h2>
                 <h5 className="description">
-                  O gerenciamento de trafego organico e pago, expande conteúdo
-                  para pessoas que ainda não conhecem sua marca. Muito
-                  importante pois esse novo público tornam-se clientes em
-                  potencial para seu negócio.
+                Destaque-se com uma presença online profissional.
+Atraia e converta mais clientes.
+Design adaptável a todos os dispositivos.
+Comunique sua proposta de valor de forma eficaz.
+Obtenha resultados rápidos e impactantes.
                 </h5>
               </Col>
               <Col lg="6" md="12">
                 <img
+                 id="image-app"
                   alt="..."
                   className="n-logo"
-                  src={require("assets/img/man-public.jpg").default}
+                  src={require("assets/img/landing-pages.png").default}
                 ></img>
               </Col>
             </Row>

@@ -16,15 +16,14 @@ function NucleoIcons() {
               <img
                 alt="..."
                 className="n-logo"
-                src={require("assets/img/strategy.jpg").default}
+                id="image-app"
+                src={require("assets/img/appguerra.png").default}
               ></img>
             </Col>
             <Col lg="6" md="12">
-              <h2 className="title">Monte uma estratégia</h2>
-              <h5 className="description">
-                Conhecemos seu negócio, seus pontos fortes e fracos, comparamos
-                com a concorrência, focamos no público certo e geramos
-                resultados eficazes e eficientes.
+              <h2 className="title">Indique e expanda</h2>
+              <h5 className="description" color="black">
+              Seus clientes são sua melhor propaganda, e é por isso que lançamos nosso aplicativo de indicações. Com ele, seu cliente indica amigos, aumentando mais sua carteira de clientes.
               </h5>
             </Col>
           </Row>

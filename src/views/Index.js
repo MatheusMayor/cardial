@@ -53,10 +53,10 @@ function Index() {
          {/*  <Carousel /> */}
           <NucleoIcons />
           <UpdateSales />
-          <CreationContent />
-        {/*   <CompleteExamples />*/}
+      {/*    <CreationContent />*/}
+      {/*     <CompleteExamples />*/}
           
-       
+      {/* <Examples/> */}
           <Download />
         </div>
         <DarkFooter />

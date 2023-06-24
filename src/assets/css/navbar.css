@@ -3,8 +3,19 @@
 }
 
 .button-text{
-    color:red;
+    color:white;
 }
+.nav-link.btn-neutral{
+background-color: #F44336;
+color:white;
+}
+
+.nav-link.btn-neutral:hover{
+    background-color: red;
+    color:white;
+    cursor:pointer;
+    transition: 0.7s
+    }
 
 .map-section{
     display:flex;

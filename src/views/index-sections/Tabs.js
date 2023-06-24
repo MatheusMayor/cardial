@@ -45,11 +45,8 @@ function Tabs() {
                   >
                     <TabPane tabId="iconPills1">
                       <h5>
-                        Criada em 2022 por um grupo de desenvolvedores e
-                        estudantes de marketing digital, a Cardial nasceu de uma
-                        necessidade atender pequenas e médias empresas que ainda
-                        não se adaptaram a nova forma de captar público ao seu
-                        negócio com as tecnologias atuais.
+                     
+Bem-vindo à Cardial I.T - sua solução completa de software delivery para pequenas e médias empresas. Oferecemos um aplicativo de indicações poderoso, que transforma clientes satisfeitos em promotores da sua marca, além de criar Landing Pages personalizadas para impulsionar sua presença online. Junte-se a nós e expanda sua base de clientes de forma eficiente e atraente!
                       </h5>
                     </TabPane>
                   </TabContent>
@@ -71,8 +68,7 @@ function Tabs() {
                   >
                     <TabPane tabId="pills1">
                       <h5>
-                        Oferecemos consultoria e planejamento de Marketing, estratégia de engajamento de público, criação de conteúdo, captação de clientes, padronização de redes sociais,
-                        gerenciamento de tráfego e construção de Websites inteligentes que convertem visitantes em vendas.
+                      Com nosso aplicativo de indicações, transformamos seus clientes em promotores entusiasmados, aumentando sua base de clientes de forma orgânica. Além disso, nossa expertise em criação de landing pages personalizadas garante uma presença online marcante e resultados impactantes. Confie na Cardial I.T para impulsionar sua empresa e conquistar o sucesso que você merece.
                       </h5>
                     </TabPane>
                   </TabContent>

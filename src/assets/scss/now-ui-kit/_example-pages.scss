@@ -57,9 +57,10 @@
         .title{
             margin-bottom: 15px;
         }
-
+      
         .description{
             margin-bottom: 30px;
+            color: red;
         }
 
         .input-group,
@@ -270,4 +271,6 @@
         color: $white-color;
         text-decoration: none;
     }
+
 }
+

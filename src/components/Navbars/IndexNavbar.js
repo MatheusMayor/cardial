@@ -53,7 +53,7 @@ function IndexNavbar() {
           }}
         />
       ) : null}
-      <Navbar className={"fixed-top " + navbarColor} expand="lg" color="danger">
+      <Navbar className={"fixed-top " + navbarColor} expand="lg" color="dark">
         <Container>
           <div className="navbar-translate">
             <NavbarBrand
@@ -61,7 +61,7 @@ function IndexNavbar() {
               target="_blank"
               id="navbar-brand"
             >
-              cardial mkt
+              cardial I.T
             </NavbarBrand>
           </div>
           <Collapse
@@ -91,11 +91,11 @@ function IndexNavbar() {
                 <p className="option-menu"></p>
               </NavLink>
               <NavItem>
-                <a href="mailto:cardialmktg@gmail.com?subject=Conversa com a Cardial&body=Olá tudo bem? fiquei interessado pelos planos da Cardial, vamos agendar uma conversa?">
+                <a href="mailto:thalisantunes@hotmail.com?subject=Conversa com a Cardial&body=Olá tudo bem? fiquei interessado pelos produtos da Cardial, vamos agendar uma conversa?">
                   {" "}
                   <Button
                     className="nav-link btn-neutral"
-                    color="info"
+                    color="black"
                     href=""
                     id="upgrade-to-pro"
                     target="_blank"
