@@ -56,7 +56,7 @@ function Index() {
       {/*    <CreationContent />*/}
       {/*     <CompleteExamples />*/}
           
-      {/* <Examples/> */}
+      <Examples/>
           <Download />
         </div>
         <DarkFooter />

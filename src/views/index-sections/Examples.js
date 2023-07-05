@@ -39,77 +39,33 @@ function Examples() {
                 <Col md="4">
                   <div className="team-player">
                     <img
-                      alt="..."
+                      alt="Iago Mendonça"
                       className="rounded-circle img-fluid img-raised"
-                      src={require("assets/img/avatar.jpg").default}
+                      src={require("assets/img/iago.jpg").default}
                     ></img>
-                    <h4 className="title">Iago Mendonça</h4>
-                    <p id="cargo"className="category text-info">Desenvolvedor Back-end</p>
+                    <h4 className="title">Iago</h4>
+                    <p id="cargo"className="category text-info">Dev Back-end</p>
                     <p id="cargo" className="description">
-    Iago é um desenvolvedor back-end, graduando análise e desenvolvimento de sistemas. Com 25 anos de idade, ele reside em Torres, no estado do Rio Grande do Sul.
+    Iago é um desenvolvedor back-end. Graduando Análise e Desenvolvimento de Sistemas. Com 25 anos de idade, ele reside em Torres, no estado do Rio Grande do Sul.
 
                    
                     </p>
                     <Button
                       className="btn-icon btn-round"
                       color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-twitter"></i>
-                    </Button>
-                    <Button
-                      className="btn-icon btn-round"
-                      color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-instagram"></i>
-                    </Button>
-                    <Button
-                      className="btn-icon btn-round"
-                      color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-facebook-square"></i>
-                    </Button>
-                  </div>
-                </Col>
-                <Col md="4">
-                  <div className="team-player">
-                    <img
-                      alt="..."
-                      className="rounded-circle img-fluid img-raised"
-                      src={require("assets/img/ryan.jpg").default}
-                    ></img>
-                    <h4 className="title">Ryan Tompson</h4>
-                    <p className="category text-info">Designer</p>
-                    <p className="description">
-                      You can write here details about one of your team members.
-                      You can give more details about what they do. Feel free to
-                      add some{" "}
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                        links
-                      </a>{" "}
-                      for people to be able to follow them outside the site.
-                    </p>
-                    <Button
-                      className="btn-icon btn-round"
-                      color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-twitter"></i>
-                    </Button>
-                    <Button
-                      className="btn-icon btn-round"
-                      color="info"
-                      href="#pablo"
+                      href="https://www.linkedin.com/in/iago-mendonca/"
                       onClick={(e) => e.preventDefault()}
                     >
                       <i className="fab fa-linkedin"></i>
                     </Button>
+                    <Button
+                      className="btn-icon btn-round"
+                      color="info"
+                      href="iago.mendonca20@gmail.com"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fab fa-google-plus"></i>
+                    </Button>
                   </div>
                 </Col>
                 <Col md="4">
@@ -117,44 +73,60 @@ function Examples() {
                     <img
                       alt="..."
                       className="rounded-circle img-fluid img-raised"
-                      src={require("assets/img/eva.jpg").default}
+                      src={require("assets/img/thalis.jpg").default}
                     ></img>
-                    <h4 className="title">Eva Jenner</h4>
-                    <p className="category text-info">Fashion</p>
+                    <h4 className="title">Thalis</h4>
+                    <p className="category text-info">Product Owner</p>
                     <p className="description">
-                      You can write here details about one of your team members.
-                      You can give more details about what they do. Feel free to
-                      add some{" "}
-                      <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                        links
-                      </a>{" "}
-                      for people to be able to follow them outside the site.
+                    Thalis é responsável pela gestão de qualidade do produto. Graduado em Engenharia de Software. Com 24 anos de idade, ele reside em Curitiba, no estado do Paraná.
                     </p>
                     <Button
                       className="btn-icon btn-round"
                       color="info"
-                      href="#pablo"
+                      href="https://www.linkedin.com/in/thalisantunes/"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fab fa-linkedin"></i>
+                    </Button>
+                    <Button
+                      className="btn-icon btn-round"
+                      color="info"
+                      href="thalisantunes100@gmail.com"
                       onClick={(e) => e.preventDefault()}
                     >
                       <i className="fab fa-google-plus"></i>
                     </Button>
-                    <Button
-                      className="btn-icon btn-round"
-                      color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-youtube"></i>
-                    </Button>
-                    <Button
-                      className="btn-icon btn-round"
-                      color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-twitter"></i>
-                    </Button>
                   </div>
+                </Col>
+                <Col md="4">
+                  <div className="team-player">
+                    <img
+                      alt="..."
+                      className="rounded-circle img-fluid img-raised"
+                      src={require("assets/img/arian.jpg").default}
+                    ></img>
+                    <h4 className="title">Arian</h4>
+                    <p className="category text-info">Dev Front-End</p>
+                    <p className="description">
+                    Arian é um desenvolvedor front-end. Graduando Análise e Desenvolvimento de Sistemas. Com 26 anos de idade, ele reside em Alegrete, no estado do Rio Grande do Sul.
+                    </p>
+                    <Button
+                      className="btn-icon btn-round"
+                      color="info"
+                      href="https://www.linkedin.com/in/ariansiqueira/"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fab fa-linkedin"></i>
+                    </Button>
+                    <Button
+                      className="btn-icon btn-round"
+                      color="info"
+                      href="arian.mensiq@gmail.com"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fab fa-google-plus"></i>
+                    </Button>
+                    </div>
                 </Col>
               </Row>
             </div>
