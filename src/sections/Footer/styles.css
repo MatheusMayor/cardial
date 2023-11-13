@@ -1,0 +1,9 @@
+.footer-section {
+  height: 600px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
