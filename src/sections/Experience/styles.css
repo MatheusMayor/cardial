@@ -1,12 +1,11 @@
 
 .section-experience{
     margin-bottom:30px;
+    padding: 5em;
 }
 .modal{
     width:30vw;
     height:30vh;
-    background-color: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.9);
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -14,11 +13,39 @@
     justify-content: center;
     padding: 5px 5px 5px 5px;
     text-align: center;
-    
 }
 
 h3{ 
     color: white;
+}
+
+.reward-form {
+    display: flex;
+    align-items: self-start;
+    flex-direction: column;
+    padding: 2rem;
+    color: transparent;
+    /* background-color: green; */
+}
+
+.reward-form-items {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: blue; */
+    width: 20%;
+}
+
+.reward-items {
+    color: #fff;
+    margin-right: 10px;
+}
+
+input {
+ width: 50%;
+}
+
+.send-button {
+    color: #fff;
 }
 
 @media(max-width: 600px){

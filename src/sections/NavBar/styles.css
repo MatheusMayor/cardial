@@ -6,10 +6,25 @@
   padding-right: 50px;
   align-items: center;
   height: 15vh;
-  background-color: black;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   margin-bottom: 10px;
 }
+
+.cardial-home {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardial-icon {
+  height: 10vh;
+  margin-left: 25px;
+}
+.cardial-name {
+  color: #fff;
+}
+
+
 
 @media (max-width: 600px) {
 

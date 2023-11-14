@@ -1,12 +1,15 @@
 import React from "react";
 import "./styles.css";
 import Tilt from "react-tilt";
-import { DiGithubBadge } from "react-icons/di";
-import { BsLinkedin } from "react-icons/bs";
+import cardialIcon from '../../assets/cardial-icon.svg';
 
 export default function NavBar() {
   return (
     <div className="navbar">
+      <div className="cardial-home">
+        <img className='cardial-icon' src={cardialIcon} />
+        <a className='cardial-name'>CARDIAL I.T</a>
+      </div>
       <div className="links">
         <Tilt
           className="Tilt"
@@ -14,54 +17,30 @@ export default function NavBar() {
           style={{ height: 90, width: 250 }}
         >
           <a className="link" href="#sobre">
-           Sobre
+            Sobre nós
           </a>
         </Tilt>
         <Tilt
           className="Tilt"
           options={{ max: 25 }}
-          style={{ height: 50, width: 250 }}
+          style={{ height: 50, width: 400 }}
         >
           <a className="link" href="#projetos">
-            Projetos
+            Nossos Produtos
           </a>
         </Tilt>
         <Tilt
           className="Tilt"
-          options={{ max: 25 }}
-          style={{ height: 50, width: 250 }}
+          options={{ max: 20 }}
+          style={{ height: 50, width: 200 }}
         >
           <a className="link" href="#experiencia">
-            Experiência
+            Equipe
           </a>
         </Tilt>
       </div>
 
-      <div className="icons-social-media">
-        <a target="_blank" href="https://github.com/ThalisAntunesDaSilva">
-          <Tilt
-            className="Tilt"
-            options={{ scale: 1.2 }}
-            style={{ height: 50, width: 50 }}
-          >
-            <button className="button-media">
-              <DiGithubBadge className="icon" />
-            </button>{" "}
-          </Tilt>
-        </a>
 
-        <a target="_blank" href="https://www.linkedin.com/in/thalisantunes/">
-          <Tilt
-            className="Tilt"
-            options={{ max: 25 }}
-            style={{ height: 50, width: 50 }}
-          >
-            <button className="button-media">
-              <BsLinkedin className="icon" />
-            </button>{" "}
-          </Tilt>
-        </a>
-      </div>
     </div>
   );
 }
