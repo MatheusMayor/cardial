@@ -1,141 +1,182 @@
 .section-start {
-
     height: 70vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    margin-bottom:20vh;
+    margin-bottom: 20vh;
     padding: 50px 10px 10px 10px;
 }
 
-
-.apresentation-box{
+.apresentation-box {
     padding: 40px 40px 40px 40px;
-    width: 50vw;
-    height:600px;
+    width: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
-  
-  
+    flex-wrap: wrap;
 }
 
-.title-banner{
-    margin-bottom:20px;
-}
-
-.apresentation-banner-box{
+.apresentation-banner-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.button-send{
+.hero-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-send {
     border-style: none;
-    height:40px;
+    height: 40px;
     width: 100px;
     background-color: #8479E1;
-    color: white;    
+    color: white;
 }
 
-.button-send:hover{
-background-color: #564ac4;
-transition: 0.3s;
-cursor: pointer;
+.button-send:hover {
+    background-color: #564ac4;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
-.apresentation-social-media{
-    display:flex;
+.apresentation-social-media {
+    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    height:50px;
+    height: 50px;
     height: 100px;
     width: 100%;
 }
 
-.title-banner{
-    font-size:100px;
+.title-banner {
+    font-size: 100px;
 }
 
-
-.apresentation-description{
-    
+.apresentation-description {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width:70vw;
+    width: 70vw;
     min-height: 100px;
     color: white;
-    
-
 }
 
 .button-social-media {
     border-style: none;
-    width:200px;
-    height:90px;
-    background-color:#e50041;
+    width: 200px;
+    height: 90px;
+    background-color: #e50041;
     border-style: none;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px rgba(255, 254, 254, 0.5);
     color: white;
     padding: 5px 5px 5px 5px;
     font-size: 15px;
-    
 }
 
 .button-social-media:hover {
-    background-color:#ff5d8b;
+    background-color: #ff5d8b;
     cursor: pointer;
     transition: 0.5s;
 }
 
 .icon {
-    font-size:30px;
+    font-size: 30px;
     color: white;
 }
 
 .icon-send {
-    font-size:30px;
+    font-size: 30px;
     color: white;
-    margin-left:10px;
+    margin-left: 10px;
 }
 
-.photo{
+.photo {
     width: 50vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 80px 10px 10px 10px;
-  
 }
 
-.photo-me{
+.photo-me {
     height: 500px;
-    
 }
 
-@media(max-width: 600px){
+.herohome {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.contact-us {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.transforme-seu-negocio-em-tecnologia,
+.aplicativos-com-solucoes-inovadoras,
+.uma-equipe-de-ti-a-sua-disposicao,
+.dr-guerra {
+    width: 30%;
+    text-align: left;
+    color: white;
+}
+
+.card,
+.dr-guerra {
+    border: 2px solid #000;
+    /* Adiciona uma borda preta de 2 pixels */
+    padding: 20px;
+    /* Adiciona algum preenchimento interno para dar espaço ao conteúdo */
+    width: 100%;
+    /* Define a largura do card */
+    text-align: left;
+    margin-bottom: 20px;
+    /* Adiciona algum espaço entre os cards */
+}
+
+.card h2,
+.dr-guerra h2 {
+    color: white;
+    /* Define a cor do texto como branca */
+}
+
+.card p,
+.dr-guerra p {
+    color: white;
+    /* Define a cor do texto como branca */
+}
+
+@media(max-width: 600px) {
     .section-start {
-        
         height: 70vh;
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-bottom:20vh;
-        
-    } 
+        margin-bottom: 20vh;
+    }
 
-    .title-banner{
+    .title-banner {
         text-align: center;
     }
-    .tilt{
-        
+
+    .tilt {
         display: flex;
         justify-content: center;
         align-items: center;

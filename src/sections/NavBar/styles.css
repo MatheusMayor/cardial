@@ -17,11 +17,13 @@
 }
 
 .cardial-icon {
-  height: 10vh;
-  margin-left: 25px;
+  height: 5vh;
+  margin-left: 75px;
 }
+
 .cardial-name {
   color: #fff;
+  font-size: 50px;
 }
 
 
@@ -46,7 +48,7 @@
   font-size: 20px;
   margin: 10px 10px 10px 10px;
   color: #ffffff;
-  
+
 }
 
 p::first-letter {
@@ -74,4 +76,3 @@ p::first-letter {
 
   width: 200px;
 }
-

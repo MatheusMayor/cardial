@@ -1,58 +1,18 @@
-.about-data {
-  background-color: #000000;
+.banner {
   height: 70vh;
   width: 100vw;
-  padding: 20px 20px 20px 20px;
+  padding: 20px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
   align-items: center;
-}
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-right: 20px;
 
-.blue{
-  width: 350px;
-  height: 1px
 }
 
 .title-biography {
   color: #fff;
   margin-bottom: 30px;
   text-align: justify;
- 
-}
-
-.description-biography {
-  color: #fff;
-  width: 600px;
-  height: 350px;
-  padding: 30px 30px 30px 30px;
-  text-align: justify;
-  
-}
-
-.image-me {
-  border-radius: 50%;
-  width: 350px;
-  height: 350px;
-  background: white;
-}
-
-.image-me {
-  border-radius: 50%;
-  width: 350px;
-  height: 350px;
-}
-
-
-@media (max-width: 600px) {
-  .image-me{
-    width: 100px;
-    height: 100px;
-  }
-
-  .description-biography{
-    font-size:10px;
-  }
-
-
 }
