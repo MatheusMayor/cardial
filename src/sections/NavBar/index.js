@@ -1,14 +1,13 @@
 import React from "react";
 import "./styles.css";
 import Tilt from "react-tilt";
-import cardialIcon from '../../assets/cardial-icon.svg';
+import logo from "../../assets/logocardial.svg";
 
 export default function NavBar() {
   return (
     <div className="navbar">
       <div className="cardial-home">
-        <img className='cardial-icon' src={cardialIcon} />
-        <a className='cardial-name'>CARDIAL I.T</a>
+        <img className='logo' src={logo} /> alt="Logo da Cardial I.T"
       </div>
       <div className="links">
         <Tilt

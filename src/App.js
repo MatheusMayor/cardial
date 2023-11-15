@@ -1,8 +1,6 @@
 import NavBar from './sections/NavBar/index';
 import BannerPrimary from './sections/BannerPrimary/index';
 import AboutMe from './sections/AboutMe/index';
-import Experience from './sections/Experience/index';
-import Skills from './sections/Skills/index';
 import Footer from './sections/Footer/index';
 
 import './global.css';
@@ -19,8 +17,6 @@ function App() {
       <NavBar />
       <BannerPrimary />
       <AboutMe />
-      <Experience />
-      <Skills />
       <Footer />
 
     </div>

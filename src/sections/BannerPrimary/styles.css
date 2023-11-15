@@ -112,7 +112,7 @@
 .herohome {
     display: flex;
     justify-content: space-between;
-    margin-top: 70px;
+    margin-top: 40px;
 }
 
 .contact-us {
@@ -125,6 +125,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
+    color: white;
 }
 
 .transforme-seu-negocio-em-tecnologia,
@@ -161,7 +162,7 @@
     /* Define a cor do texto como branca */
 }
 
-@media(max-width: 600px) {
+@media (max-width: 600px) {
     .section-start {
         height: 70vh;
         width: 100%;
@@ -174,6 +175,7 @@
 
     .title-banner {
         text-align: center;
+        font-size: 6vw;
     }
 
     .tilt {
@@ -181,4 +183,14 @@
         justify-content: center;
         align-items: center;
     }
+
+    .button-social-media {
+        width: 80vw;
+    }
+
+    .icon,
+    .icon-send {
+        font-size: 4vw;
+    }
+
 }
